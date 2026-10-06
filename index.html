@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absurdo Sistemático — Ian Lapa</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Filosofia da informação, tecnologia, sociedade e a forma como entendemos o mundo. Por Ian Lapa.">
+    <meta name="keywords" content="Epistemologia, Filosofia, IA, Linguagem, Conversação Pública, Ian Lapa">
+    <meta name="author" content="Ian Lapa">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Absurdo Sistemático — Ian Lapa">
+    <meta property="og:description" content="Filosofia da informação, tecnologia, sociedade e a forma como entendemos o mundo.">
+    <meta property="og:image" content="assets/logo_text.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Absurdo Sistemático — Ian Lapa">
+    <meta property="twitter:description" content="Filosofia da informação, tecnologia, sociedade e a forma como entendemos o mundo.">
+    <meta property="twitter:image" content="assets/logo_text.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Core CSS stylesheet -->
+    <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar-container">
+        <div class="navbar-wrapper">
+            <a href="#" class="logo" id="nav-logo">
+                <div class="nav-logo-crop">
+                    <img src="assets/logo.png" alt="Absurdo Sistemático" class="nav-logo-img">
+                </div>
+            </a>
+            <nav class="nav-links">
+                <a href="#publicacoes" class="nav-item" data-pt="Textos" data-en="Texts">Textos</a>
+                <a href="#sobre" class="nav-item" data-pt="Sobre" data-en="About">Sobre</a>
+            </nav>
+            <div class="nav-socials">
+                <button class="lang-toggle-btn" id="lang-toggle" aria-label="Switch language">
+                    <span class="lang-label">EN</span>
+                </button>
+                <a href="https://ianlapa.substack.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn sub-btn" aria-label="Substack"><i class="fas fa-envelope-open-text"></i></a>
+            </div>
+            <button class="menu-toggle" id="menu-toggle-btn" aria-label="Open Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-nav" id="mobile-navigation">
+        <nav class="mobile-nav-links">
+            <a href="#publicacoes" class="mobile-nav-item" data-pt="Textos" data-en="Texts">Textos</a>
+            <a href="#sobre" class="mobile-nav-item" data-pt="Sobre" data-en="About">Sobre</a>
+        </nav>
+        <div class="mobile-nav-socials">
+            <a href="https://ianlapa.substack.com/" target="_blank" rel="noopener noreferrer" class="social-btn"><i class="fas fa-envelope-open-text"></i> Substack</a>
+        </div>
+    </div>
+
+
+
+    <!-- Texts -->
+    <section class="section essays-section" id="publicacoes">
+        <div class="container essays-container">
+            <div class="essays-info">
+                <h1 class="main-title" data-pt="Filosofia da informação, tecnologia, sociedade e a forma como entendemos o mundo." data-en="Philosophy of information, technology, society, and how we understand the world.">
+                    Filosofia da informação, tecnologia, sociedade e a forma como entendemos o mundo.
+                </h1>
+                
+                
+                <div class="recent-essays-list" id="substack-feed-container">
+                    <a href="https://ianlapa.substack.com/p/sera-que-o-velho-sabe-que-e-visto" target="_blank" rel="noopener" class="essay-item">
+                        <span class="essay-date">03 Dez</span>
+                        <span class="essay-title">Será que o velho sabe que é visto? <i class="fas fa-external-link-alt"></i></span>
+                    </a>
+                    <a href="https://ianlapa.substack.com/p/por-que-escrever-qualquer-coisa-se" target="_blank" rel="noopener" class="essay-item">
+                        <span class="essay-date">05 Nov</span>
+                        <span class="essay-title">Por que escrever qualquer coisa se o que se quer escrever é literatura <i class="fas fa-external-link-alt"></i></span>
+                    </a>
+                    <a href="https://ianlapa.substack.com/p/absurdos-sistematicos-10" target="_blank" rel="noopener" class="essay-item">
+                        <span class="essay-date">02 Fev</span>
+                        <span class="essay-title">A conectividade trouxe a hiper-interpretação? <i class="fas fa-external-link-alt"></i></span>
+                    </a>
+                </div>
+                
+                <a href="https://ianlapa.substack.com/" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top: 2rem; display: inline-flex; max-width: fit-content;">
+                    <i class="fas fa-feather-pointed"></i> <span data-pt="Ler" data-en="Read">Ler</span>
+                </a>
+            </div>
+
+            <div class="hero-visual">
+                <div class="art-container hero-logo-container">
+                    <img src="assets/logo_text.png" alt="Absurdo Sistemático" class="hero-art-image" id="hero-main-art">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section host-section" id="sobre">
+        <div class="container host-wrapper">
+            <div class="host-image-container">
+                <div class="host-avatar-frame">
+                    <div class="host-avatar-bg">
+                        <img src="assets/ian_lapa.jpg" alt="Ian Lapa" class="host-avatar-img">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="host-details">
+                <div class="badge-tech"><i class="fas fa-graduation-cap"></i> <span data-pt="SOBRE" data-en="ABOUT">SOBRE</span></div>
+                <h2>Ian Lapa</h2>
+                <p data-pt="Absurdo Sistemático é um projeto de pesquisa independente dedicado a investigar como produzimos, organizamos e interagimos na produção de conhecimento — especialmente quando mediados por grandes interfaces informacionais de tecnologia e dados. Como os ambientes contemporâneos afetam a forma como conversamos, confiamos, discordamos e o que se perde quando essas condições se degradam?" data-en="Absurdo Sistemático is an independent research project dedicated to investigating how we produce, organize, and interact in the production of knowledge — especially when mediated by large informational interfaces of technology and data. How do contemporary environments affect the way we converse, trust, disagree, and what is lost when these conditions degrade?">
+                    Absurdo Sistemático é um projeto de pesquisa independente dedicado a investigar como produzimos, organizamos e interagimos na produção de conhecimento — especialmente quando mediados por grandes interfaces informacionais de tecnologia e dados. Como os ambientes contemporâneos afetam a forma como conversamos, confiamos, discordamos e o que se perde quando essas condições se degradam?
+                </p>
+
+                <div class="host-connect-buttons">
+                    <a href="https://ianlapa.substack.com/" target="_blank" rel="noopener" class="host-social-link" aria-label="Substack"><i class="fas fa-envelope-open-text"></i> Substack</a>
+                    <a href="https://www.linkedin.com/company/absurdo-sistematico/" target="_blank" rel="noopener" class="host-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="http://lattes.cnpq.br/8267668740308313" target="_blank" rel="noopener" class="host-social-link" aria-label="Lattes"><i class="fas fa-file-alt"></i> Lattes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container footer-wrapper">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <div class="nav-logo-crop">
+                        <img src="assets/logo.png" alt="Logo Absurdo Sistemático" class="nav-logo-img">
+                    </div>
+                    <img src="assets/logo_text.png" alt="Absurdo Sistemático" class="nav-logo-text-img">
+                </a>
+            </div>
+            
+            <div class="footer-links-grid">
+                <div class="footer-col">
+                    <h4 data-pt="Navegação" data-en="Navigation">Navegação</h4>
+                    <a href="#publicacoes" data-pt="Textos" data-en="Texts">Textos</a>
+                    <a href="#sobre" data-pt="Sobre" data-en="About">Sobre</a>
+                </div>
+                <div class="footer-col">
+                    <h4 data-pt="Plataformas" data-en="Platforms">Plataformas</h4>
+                    <a href="https://ianlapa.substack.com/" target="_blank" rel="noopener">Substack</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-wrapper">
+                <p class="copy-text">&copy; 2026 Absurdo Sistemático.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
