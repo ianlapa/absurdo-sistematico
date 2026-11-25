@@ -1,0 +1,3 @@
+numpy>=1.24
+matplotlib>=3.7
+# para gerar os vídeos (gerar_clipes.py) também é preciso o ffmpeg instalado no sistema

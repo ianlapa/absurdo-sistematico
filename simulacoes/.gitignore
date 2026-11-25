@@ -1,0 +1,11 @@
+# vídeos e imagens gerados
+saida/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# sistema
+.DS_Store
